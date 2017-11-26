@@ -20028,4 +20028,6 @@ with pkgs;
   };
 
   wal-g = callPackage ../tools/backup/wal-g {};
+
+  drawpile = libsForQt5.callPackage ../applications/graphics/drawpile {};
 }
